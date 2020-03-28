@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8168325335178259463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8168325335178259706}
+  - component: {fileID: 8168325335178259705}
+  - component: {fileID: 8168325335178259704}
+  m_Layer: 0
+  m_Name: MapSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8168325335178259706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168325335178259463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.839424, y: -15.352104, z: -1.7225456}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8168325335178259705
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168325335178259463}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &8168325335178259704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168325335178259463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e0fb6307cbcc743b90b347d37d1a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spU: {fileID: 4516730314010417050, guid: ba89ecdb859804f46b0ac71a7d238383, type: 3}
+  spD: {fileID: 5108279555441165877, guid: 570c75cbde2dbd4489824437d06122a9, type: 3}
+  spR: {fileID: 298821205798480816, guid: a899614e680406b4cb39f3f2d915980d, type: 3}
+  spL: {fileID: 6504187119558467090, guid: 9a34a83b27e9b0f42880873c5f3d6740, type: 3}
+  spUD: {fileID: 3917090869032304228, guid: 6a327644827493f4bbfe02ee28ea4c46, type: 3}
+  spRL: {fileID: 1489753028505586612, guid: 097676de6c2ed474d980c593b0fae0ef, type: 3}
+  spUR: {fileID: 7765070479961780405, guid: 8e5bc2402a699bf41b61b7d7c3936439, type: 3}
+  spUL: {fileID: 28984978967981943, guid: d2dbb6d30d44c3c489be22600058e1f8, type: 3}
+  spDR: {fileID: 4068600442855354430, guid: f295b7443d34a504dab249c7a3970567, type: 3}
+  spDL: {fileID: 57660639811665434, guid: 592b6c997243c934bbf45212122f1d6a, type: 3}
+  spULD: {fileID: 6277308614199614517, guid: afab41267fa5def48935a6e68e7663b7, type: 3}
+  spRUL: {fileID: 3514247907695432552, guid: 12af0800806384f4c946db07f49f3c12, type: 3}
+  spDRU: {fileID: 2591588857029145372, guid: de88287297445b8479379e36351c0084, type: 3}
+  spLDR: {fileID: 4744565775929054514, guid: 8167fdb3938ae9342be0c67911bbba9e, type: 3}
+  spUDRL: {fileID: 638106155460057828, guid: c18f503a7a4c69e43898a2d84ac5cdd3, type: 3}
+  up: 0
+  down: 0
+  left: 0
+  right: 0
+  type: 0
+  normalColor: {r: 0, g: 0, b: 0, a: 0}
+  enterColor: {r: 0, g: 0, b: 0, a: 0}
+  rend: {fileID: 0}
+  gen: {fileID: 0}
